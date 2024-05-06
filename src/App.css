@@ -246,7 +246,19 @@
 .ellipis7 {
   top: 18%;
 }
+/* ======================cutom scroolbar========================= */
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #fff; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-light-green); 
+  border-radius: 10px;
+}
 @keyframes bounce {
 
   0%,
@@ -385,8 +397,9 @@
     --fs-lg: 18px;
     --fs-xl: 30px;
     --fs-xxl: 60px;
+    /* line-height */
+    --lh-xl: 35px;
   }
-
   .ellipis1,
   .ellipis2,
   .ellipis3,
