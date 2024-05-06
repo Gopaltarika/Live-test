@@ -2,7 +2,7 @@ import React from 'react'
 
 const SevenAiCard = (props) => {
     return (
-        <div className={`${props.col} d-flex`}>
+        <div className={`${props.col} d-flex`} data-aos="fade-down">
             <div className={`card-sevenAi w-100 bg-card-gradient d-flex justify-content-center align-items-center ${props.maxWidth}`}>
                 {props.Images && <img src={props.Images} alt="Logo-Images" width={props.size} height={props.height} />}
               <div className='d-flex flex-column gap-14'>
