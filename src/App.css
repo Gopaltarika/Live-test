@@ -28,7 +28,7 @@
   --lh-md: 27.24px;
   --lh-lg: 28px;
   --lh-2lg: 31.2px;
-  --lh-xl: 51.5px;
+  --lh-xl: 60px;
   --lh-xxl: 150px;
   /* Color */
   --c-light-green: #228B22;
@@ -139,12 +139,19 @@
 .pt-98 {
   padding-top: 98px;
 }
-.pt-38{
+
+.pt-38 {
   padding-top: 38px;
 }
-.pb-319{
+
+.pb-319 {
   padding-bottom: 319px;
 }
+
+.pt-79 {
+  padding-top: 79px;
+}
+
 /* =================================Normal Classes =============================== */
 .bg-body-color {
   background-color: var(--c-dark-green) !important;
@@ -157,7 +164,7 @@
 
 .card-sevenAi {
   border-radius: 25px;
-  height: 290px;
+  min-height: 290px;
   padding: 44px 37px 45px 31px;
 }
 
@@ -176,21 +183,35 @@
   color: transparent;
   font-size: 150px;
 }
-.ellipis3{
+
+.ellipis1 {
+  top: 0%;
+}
+
+.ellipis3 {
   top: 10%;
 }
-.ellipis2{
+
+.ellipis2 {
   bottom: -50%;
 }
-.ellipis4{
+
+.ellipis4 {
   top: 29%;
 }
-.ellipis5{
+
+.ellipis5 {
   bottom: 8%;
 }
-.ellipis6{
+
+.ellipis6 {
   bottom: -1%;
 }
+
+.ellipis7 {
+  top: 18%;
+}
+
 /* =========================== MediaQuery ================================ */
 @media (min-width:1400px) and (max-width:1440px) {
   .container {
@@ -201,5 +222,97 @@
 @media (max-width:1440px) {
   .max-w-697 {
     max-width: 697px !important;
+  }
+}
+@media (max-width:992px) {
+  .pt-63{
+    padding-top: 30px;
+  }
+  .pt-79{
+    padding-top: 30px;
+  }
+  .pt-38{
+    padding-top: 20px;
+  }
+}
+@media (max-width:768px) {
+  .card-body {
+    min-height: 250px;
+  }
+.card-sevenAi{
+  padding: 20px ;
+}
+  :root {
+    /* Font-Size */
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 38px;
+    --fs-xxl: 100px;
+    /* Line-Height */
+    --lh-xs: 23px;
+    --lh-sm: 24px;
+    --lh-md: 26px;
+    --lh-lg: 25px;
+    --lh-2lg: 28px;
+    --lh-xl: 50px;
+    --lh-xxl: 100px;
+  }
+.pb-319{
+  padding-bottom: 100px;
+}
+.mt-289{
+  margin-top: 80px;
+}
+.mt-167{
+  margin-top: 80px;
+}
+.mt-34{
+  margin-top: 25px;
+}
+.pt-191{
+  padding-top: 80px;
+}
+.pt-98{
+  padding-top: 30px;
+}
+.pt-64{
+  padding-top: 30px;
+}
+.pt-63{
+  padding-top: 30px;
+}
+  .ellipis1 {
+    top: -5% !important;
+  }
+
+  .ellipis1,
+  .ellipis2,
+  .ellipis3,
+  .ellipis4,
+  .ellipis5,
+  .ellipis6,
+  .ellipis7 {
+    max-width: 200px;
+  }
+}
+
+@media (max-width:576px) {
+  :root {
+    /* Font-Size */
+    --fs-sm: 13px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 30px;
+    --fs-xxl: 60px;
+  }
+  .ellipis1,
+  .ellipis2,
+  .ellipis3,
+  .ellipis4,
+  .ellipis5,
+  .ellipis6,
+  .ellipis7 {
+    max-width: 150px;
   }
 }
