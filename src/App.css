@@ -409,4 +409,11 @@
   .ellipis7 {
     max-width: 150px;
   }
+  .count-box{
+    max-width: 195px;
+    min-height: 135px;
+  }
+.card-sevenAi{
+  min-height: 200px;
+}
 }
