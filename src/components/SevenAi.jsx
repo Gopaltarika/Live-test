@@ -121,7 +121,7 @@ const SevenAi = () => {
                     <svg className='me-2' width="291" height="6" viewBox="0 0 291 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M285.333 3.00002C285.333 1.52727 286.527 0.333358 288 0.333358C289.473 0.333359 290.667 1.52727 290.667 3.00003C290.667 4.47278 289.473 5.66669 288 5.66669C286.527 5.66669 285.333 4.47278 285.333 3.00002ZM4.37114e-08 2.5L288 2.50003L288 3.50003L-4.37114e-08 3.5L4.37114e-08 2.5Z" fill="#228B22" />
                     </svg>
-                    <h2 className='me-1 text-uppercase m-0 text-white fw-light fs-xl text-nowrap text-center ff-OpenSans'>TOP <span className='c-light-green'>sEVEN Ai</span> sOCK</h2>
+                    <h2 className='me-1 m-0 text-white fw-light fs-xl text-nowrap text-center ff-OpenSans'>Top <span className='c-light-green'>seven AI</span> Sock</h2>
                     <svg width="291" height="6" viewBox="0 0 291 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.66666 3.00002C5.66666 1.52727 4.47275 0.333358 3 0.333358C1.52725 0.333359 0.333343 1.52727 0.333344 3.00003C0.333344 4.47278 1.52725 5.66669 3 5.66669C4.47275 5.66669 5.66666 4.47278 5.66666 3.00002ZM291 2.5L3 2.50003L3 3.50003L291 3.5L291 2.5Z" fill="#228B22" />
                     </svg>
